@@ -31,5 +31,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "daySlots": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "slot": {
+    "dataSource": "mongo",
+    "public": false
   }
 }

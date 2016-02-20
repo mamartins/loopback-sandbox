@@ -1,0 +1,28 @@
+{
+  "name": "daySlots",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "slots": {
+      "type": "embedsMany",
+      "model": "slot",
+      "property": "slots",
+      "options": {
+        "validate": true
+      }
+    }
+  },
+  "acls": [
+  ],
+  "methods": {}
+}

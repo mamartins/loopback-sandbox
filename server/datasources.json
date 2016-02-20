@@ -2,5 +2,10 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongo": {
+    "database": "loopback-sandbox",
+    "name": "mongo",
+    "connector": "mongodb"
   }
 }
